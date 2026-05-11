@@ -30,6 +30,11 @@
     </dependencies>
 
     <properties>
+        <sonar.coverage.exclusions>
+            src/main/java/org/example/Main.java,
+            src/main/java/org/example/TimeFormatter.java,
+            src/main/java/org/example/TimeModel.java
+        </sonar.coverage.exclusions>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <sonar.organization>bim121</sonar.organization>
